@@ -1,0 +1,116 @@
+@media (max-width:660px) {
+
+    #logo{
+        width: 100px;
+    }
+    #sign-in-btn,#language-select{
+        padding: 5px 10px;
+        font-size: 10px;
+    }
+    #header-text  {
+       line-height: 40px;
+       flex-wrap: wrap;
+}
+    #header-text  h1{
+        font-size: 40px;
+}
+        #header-text  p{
+    font-size: 15px;
+}
+
+#header-text input{
+    width: 200px;
+  
+    font-size: 15px;
+}
+#header-text form{
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#header-text form button {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+   
+    font-size: 20px;
+}
+#faq form {
+   flex-wrap: wrap;
+}
+        
+}
+
+
+/* 460px  */
+@media (max-width:400px) {
+   
+    label{
+        font-size: 10px;
+    }
+    #header-text {
+        line-height: 35px;
+    }
+
+    .row{
+        flex-wrap: wrap;
+      
+    }
+    .col-1 h1{
+        font-size: 20px;
+    }
+    .col-1{
+        width: 300px;
+    }
+    .col-1 p{
+        margin-top: 10px;
+        font-size: 10px;
+        line-height: 20px;
+    }
+    #faq form input ,#header-text input  {
+        width: 170px;
+}
+}
+
+@media (min-width:401px) and (max-width:850px) {
+       
+      
+    .row{
+            flex-wrap: wrap;
+        
+                margin-top: 40px;
+                margin-bottom: 40px;
+            
+        }
+        .col-1 h1{
+            font-size: 30px;
+        }
+        .col-1{
+            width: 400px;
+            flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+        }
+        .col-1 p{
+            margin-top: 10px;
+            font-size: 15px;
+            line-height: 20px;
+        }
+       
+        #faq form input ,#header-text input  {
+                width: 320px;
+        }
+        #faq form button{
+            width: 200px;
+    }
+
+    .d a{ color: #737373;
+        margin-top: 10px;
+    
+        margin-right: 60px;
+        font-size: 10px;
+        text-decoration: none;
+    }
+}
+
